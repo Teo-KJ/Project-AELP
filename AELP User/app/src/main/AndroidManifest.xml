@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aelpuser">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Control.DrawCard"></activity>
+        <activity
+            android:name=".Dialogue.ConfirmPurchaseProperty"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".Control.PurchaseProperty" />
+        <activity android:name=".Control.PayOtherPlayers" />
+        <activity android:name=".Control.CheckProfile" />
+        <activity android:name=".Control.MainScreen" />
+        <activity android:name=".Control.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dialogue.RollDice"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Dialogue.ConfirmPayMoney"
+            android:theme="@style/AppTheme.CustomTheme" />
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AELP User</string>
+    <string-array name="landmarksOption">
+        <!--        <item></item>-->
+        <item>Singapore</item>
+        <item>Malaysia</item>
+        <item>Thailand</item>
+        <item>Vietnam</item>
+        <item>Phillipines</item>
+        <item>Brunei</item>
+    </string-array>
+</resources>

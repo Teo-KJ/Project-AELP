@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AELP Facilitator</string>
+    <string-array name="propertyColours">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Medium Purple</item>
+        <item>Magenta</item>
+        <item>Orange</item>
+    </string-array>
+</resources>
